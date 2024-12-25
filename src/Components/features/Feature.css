@@ -1,0 +1,41 @@
+.feature{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.featureItem{
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+.featureTitle{
+    font-size: 20px;
+}
+.featureContainer{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.featureMoney{
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+.featureRate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featureRate .featureIcon{
+    color: green;
+    margin-left: 5px;
+    font-size: 22px;
+}
+.featureIcon.negative{
+    color: red;
+}
+.featureSub{
+    font-size: 15px;
+    color: #555;
+}
